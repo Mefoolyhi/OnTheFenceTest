@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.onthefencetest.FiltersActivity"
+    android:layout_margin="16dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите театр"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:id="@+id/choose_the_teatre_text"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/choose_the_teatre_text"
+        android:hint="Начните вводить название театра"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_the_teatre_text"
+        android:id="@+id/text_choose_two_dates"
+        android:text="Выбор диапазона дат"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/text_choose_two_dates"
+        android:layout_margin="16dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_date"
+            android:textSize="15sp"
+            android:text="Нажмите, чтобы выбрать дату"
+
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_date"
+            android:textSize="15sp"
+            android:text="Нажмите, чтобы выбрать дату"
+            android:layout_weight="1"
+
+            android:layout_margin="5dp"
+
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ready"
+        android:textSize="20dp"
+
+        android:layout_margin="5dp"
+        android:text="Применить"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+        />
+
+</RelativeLayout>
