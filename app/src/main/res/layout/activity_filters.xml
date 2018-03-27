@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Выберите театр"
         android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
         android:textSize="20dp"
         android:textColor="#000"
         android:id="@+id/choose_the_teatre_text"
@@ -34,7 +35,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/choose_the_teatre_text"
+        android:layout_below="@+id/autoCompleteTextView"
         android:id="@+id/text_choose_two_dates"
         android:text="Выбор диапазона дат"
         android:textColor="#000"
