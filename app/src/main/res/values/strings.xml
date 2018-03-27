@@ -12,4 +12,7 @@
         <item>Шоу</item>
         <item>Детское</item>
     </string-array>
+
+
+    <string name="title_activity_news_">News_Activity</string>
 </resources>
