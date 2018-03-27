@@ -1,23 +1,22 @@
-package com.example.admin.onthefencetest;
+package com.example.admin.onthefencetest.Fragments;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.admin.onthefencetest.R;
 
-public class FavouritesFragment extends Fragment {
+public class ManageFragment extends Fragment {
 
 
-    public FavouritesFragment() {
+    public ManageFragment() {
         // Required empty public constructor
     }
 
-    public static FavouritesFragment newInstance() {
-        FavouritesFragment fragment = new FavouritesFragment();
+    public static ManageFragment newInstance() {
+        ManageFragment fragment = new ManageFragment();
 
         return fragment;
     }
@@ -32,8 +31,8 @@ public class FavouritesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v =  inflater.inflate(R.layout.fragment_favourites, container, false);
-        return  v;
+        View v =  inflater.inflate(R.layout.fragment_manage, container, false);
+        return v;
     }
 
 

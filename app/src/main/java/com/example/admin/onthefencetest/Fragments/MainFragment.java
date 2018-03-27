@@ -1,4 +1,4 @@
-package com.example.admin.onthefencetest;
+package com.example.admin.onthefencetest.Fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.admin.onthefencetest.Activities.FiltersActivity;
+import com.example.admin.onthefencetest.R;
 
 
 public class MainFragment extends Fragment {
