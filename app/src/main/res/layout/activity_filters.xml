@@ -87,4 +87,17 @@
 
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:textSize="20dp"
+
+        android:layout_margin="5dp"
+        android:text="Отменить"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+
+        />
+
 </RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.admin.onthefencetest.Activities;
 
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

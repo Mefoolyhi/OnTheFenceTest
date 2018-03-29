@@ -40,6 +40,8 @@ public class NewsFragment extends Fragment {
         rv = view.findViewById(R.id.rv_news);
 
         pb = view.findViewById(R.id.progressBar);
+
+
         eror = view.findViewById(R.id.eror_text);
         pb.setVisibility(View.INVISIBLE);
         eror.setVisibility(View.INVISIBLE);

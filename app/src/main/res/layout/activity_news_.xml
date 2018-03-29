@@ -7,9 +7,12 @@
     tools:context=".Activities.NewsActivity">
 <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+
+    >
    <ProgressBar
        android:layout_width="match_parent"
+       android:theme="@style/CircularProgress"
        android:layout_height="wrap_content"
        android:id="@+id/progressBar"
        android:visibility="invisible"
