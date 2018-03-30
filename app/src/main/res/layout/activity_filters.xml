@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.admin.onthefencetest.Activities.FiltersActivity"
-    android:layout_margin="16dp"
+
+    android:background="@drawable/background"
     >
 
 
@@ -58,6 +59,7 @@
             android:text="Нажмите, чтобы выбрать дату"
 
             android:layout_margin="5dp"
+            android:clickable="true"
             android:layout_weight="1"
 
             />
@@ -66,6 +68,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/second_date"
             android:textSize="15sp"
+            android:clickable="true"
             android:text="Нажмите, чтобы выбрать дату"
             android:layout_weight="1"
 
@@ -82,6 +85,8 @@
 
         android:layout_margin="5dp"
         android:text="Применить"
+
+        android:background="#F7E9DC"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
 
@@ -93,6 +98,7 @@
         android:id="@+id/back"
         android:textSize="20dp"
 
+        android:background="#F7E9DC"
         android:layout_margin="5dp"
         android:text="Отменить"
         android:layout_alignParentBottom="true"
