@@ -118,6 +118,7 @@ public class MainFragment extends Fragment {
         protected Void doInBackground(Void... voids) {
             try {
                 news.clear();
+                //ошибка тута
                 Document doc = Jsoup.connect("http://www.aekaterinburg.com/relax/top").get();
                 Log.e("News",doc.toString());
                 Elements e = doc.select(".a-main-block amb-category").select(".amb-020").select(".amb-021").select("a[href]");
